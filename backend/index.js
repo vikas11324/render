@@ -40,3 +40,5 @@ app.get("/", (req, res) => {
 app.get("/all-data", (req, res) => {
   res.json(allData);
 });
+
+export default app;
